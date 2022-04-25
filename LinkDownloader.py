@@ -28,7 +28,7 @@ def requests_():# send the request
 def linkfinder():# find the download link
     global link
     soup = BeautifulSoup(req.content,'html.parser')
-    link = soup.select('a+ a')
+    link = soup.select('a')
     
     
 def output():# export the link
@@ -40,7 +40,7 @@ def output():# export the link
          number += 1
          x = (i.get('href'))
          print(f'Download Link {number} : {url}{x}\n')
-         downloadlink.append(f'{url}{x}') 
+         downloadlink.append(f'{url}/{x}') 
          
          
 def downloadlinkfile():# create the text file for download the music with download manager
