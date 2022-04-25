@@ -37,10 +37,11 @@ def output():# export the link
     print("____________________________________________________________________\n")
     number = 0
     for i in link:
-         number += 1
          x = (i.get('href'))
-         print(f'Download Link {number} : {url}{x}\n')
-         downloadlink.append(f'{url}/{x}') 
+         if '.mp3' in x:
+             number += 1
+             print(f'Download Link {number} : {url}{x}\n')
+             downloadlink.append(f'{url}/{x}') 
          
          
 def downloadlinkfile():# create the text file for download the music with download manager
