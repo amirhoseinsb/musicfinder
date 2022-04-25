@@ -27,15 +27,15 @@
 
 </div>
 <p align = 'center'>
-	<img src = 'image/1.png'/>
+	<img src = '/musicfinder/image/1.png'/>
 </p>
 
 <p align = 'center'>
-        <img src = 'image/2.png'/>
+        <img src = '/musicfinder/image/2.png'/>
 </p>
 
 <p align = 'center'>
-        <img src = 'image/3.png'/>
+        <img src = '/musicfinder/image/3.png'/>
 
 </p>
 
