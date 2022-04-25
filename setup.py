@@ -1,7 +1,7 @@
-from Mp3founder import banner ,input_name,requests_,filter_,find,view
+from Musicfinder import banner ,input_name,requests_,filter_,find,view
 
 
-banner
+banner()
 input_name()
 requests_()
 filter_()
